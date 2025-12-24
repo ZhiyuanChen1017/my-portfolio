@@ -3,7 +3,7 @@ import React from 'react';
 // 1. 导航组件
 const Navbar = () => (
   <nav className="flex justify-between items-center p-6 bg-white shadow-sm">
-    <div className="text-xl font-bold text-slate-900">Chen Zhiyuan.</div>
+    <div className="text-xl font-bold text-slate-900">陈致远</div>
     <ul className="flex space-x-6 text-slate-600">
       <li><a href="#about" className="hover:text-blue-600">关于</a></li>
       <li><a href="#skills" className="hover:text-blue-600">技能</a></li>
@@ -18,10 +18,9 @@ const Hero = () => (
   <section className="py-20 px-6 text-center bg-slate-50">
     <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
       以数据驱动商业决策<br />
-      <span className="text-blue-600">用理性构建财富思维</span>
     </h1>
     <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-      我是陈致远，坐标香港。一名专注增长的商业分析师，也是长期主义投资者。
+      我是陈致远，坐标香港。一名专注增长的商业分析师。
     </p>
     <div className="flex justify-center space-x-4">
       <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
@@ -74,11 +73,11 @@ const Experience = () => (
       {/* 示例条目 */}
       <div className="relative">
         <div className="absolute -left-[39px] w-5 h-5 bg-blue-600 rounded-full border-4 border-white"></div>
-        <span className="text-sm text-blue-600 font-bold">202X - 至今</span>
-        <h3 className="text-xl font-bold mt-1">高级商业分析师</h3>
-        <p className="text-slate-500 mb-2">某知名企业 / 香港</p>
+        <span className="text-sm text-blue-600 font-bold">2025 - 至今</span>
+        <h3 className="text-xl font-bold mt-1">商业分析师</h3>
+        <p className="text-slate-500 mb-2">Keeta HK</p>
         <p className="text-slate-600">
-          在此处填写具体的工作内容，例如：利用 Python 进行数据清洗，搭建 PowerBI 自动化看板...
+          牛马，坐牢，在逐渐修炼自己表演上班的技巧
         </p>
       </div>
       {/* 更多条目... */}
